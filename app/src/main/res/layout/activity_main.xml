@@ -21,61 +21,59 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="28dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ods1"
-        tools:layout_editor_absoluteY="98dp" />
+        tools:layout_editor_absoluteY="99dp" />
 
     <Button
         android:id="@+id/BtnOds1"
-        android:layout_width="75dp"
+        android:layout_width="68dp"
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
         android:text="ODS 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="12dp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:srcCompat="@drawable/ods2"
-        tools:layout_editor_absoluteY="96dp" />
+        tools:layout_editor_absoluteY="99dp" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:srcCompat="@drawable/ods4"
-        tools:layout_editor_absoluteY="95dp" />
+        tools:layout_editor_absoluteY="99dp" />
 
     <Button
         android:id="@+id/BtnOds4"
-        android:layout_width="75dp"
+        android:layout_width="68dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="35dp"
         android:text="ODS 4"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/BtnOds3"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <Button
         android:id="@+id/BtnOds3"
-        android:layout_width="75dp"
+        android:layout_width="68dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:text="ODS3"
         app:layout_constraintStart_toEndOf="@+id/BtnOds2"
@@ -83,9 +81,9 @@
 
     <Button
         android:id="@+id/BtnOds2"
-        android:layout_width="75dp"
+        android:layout_width="68dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:text="ODS 2"
         app:layout_constraintStart_toEndOf="@+id/BtnOds1"
@@ -93,40 +91,35 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="55dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/ods5" />
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:srcCompat="@drawable/ods5"
+        tools:layout_editor_absoluteY="99dp" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.8"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="12dp"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:srcCompat="@drawable/ods3_1"
-        tools:layout_editor_absoluteY="96dp" />
+        tools:layout_editor_absoluteY="100dp" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginTop="55dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/ods6" />
+        app:srcCompat="@drawable/ods6"
+        tools:layout_editor_absoluteX="119dp" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
@@ -135,8 +128,8 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         android:layout_marginEnd="28dp"
@@ -147,37 +140,39 @@
         app:srcCompat="@drawable/ods8" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/BtnOds5"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
         android:text="ODS 5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds4"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/BtnOds6"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:text="ODS 6"
-        app:layout_constraintStart_toEndOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:layout_editor_absoluteX="123dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/BtnOds7"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:text="ODS 7"
-        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds6"
         app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/BtnOds8"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
@@ -185,23 +180,22 @@
         android:layout_marginEnd="35dp"
         android:text="ODS 8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds7"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="55dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/ods9" />
+        app:srcCompat="@drawable/ods9"
+        tools:layout_editor_absoluteY="346dp" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
@@ -210,8 +204,8 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toEndOf="@+id/imageView14"
@@ -220,8 +214,8 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         android:layout_marginEnd="28dp"
@@ -231,7 +225,7 @@
         app:srcCompat="@drawable/ods12" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/BtnOds9"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="28dp"
@@ -241,27 +235,27 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/BtnOds10"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:text="ODS 10"
-        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds9"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/BtnOds11"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:text="ODS 11"
-        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds10"
         app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/BtnOds12"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
@@ -269,13 +263,13 @@
         android:layout_marginEnd="35dp"
         android:text="ODS 12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds11"
         app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -284,8 +278,8 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
@@ -294,8 +288,8 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="55dp"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
@@ -304,18 +298,18 @@
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
         app:srcCompat="@drawable/ods16" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/BtnOds13"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="28dp"
@@ -325,27 +319,27 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/BtnOds14"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:text="ODS 14"
-        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds13"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/BtnOds15"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:text="ODS 15"
-        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds14"
         app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/BtnOds16"
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
@@ -354,24 +348,28 @@
         android:text="ODS 16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintStart_toEndOf="@+id/BtnOds15"
         app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ods17"
-        tools:layout_editor_absoluteY="615dp" />
+        app:layout_constraintTop_toBottomOf="@+id/BtnOds13"
+        app:srcCompat="@drawable/ods17" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/BtnOds17"
         android:layout_width="75dp"
         android:layout_height="40dp"
+        android:layout_marginTop="8dp"
         android:text="ODS 17"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
