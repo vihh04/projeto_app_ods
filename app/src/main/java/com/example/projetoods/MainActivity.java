@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnSair,BtnOds1,BtnOds2,BtnOds3,BtnOds4,BtnOds5,BtnOds6,BtnOds7,BtnOds8,BtnOds9,BtnOds10,BtnOds11,BtnOds12,BtnOds13,BtnOds14,BtnOds15,BtnOds16,BtnOds17;
+    Button btnSair,BtnOds1,BtnOds2,BtnOds3,BtnOds4,BtnOds5,BtnOds6,BtnOds7,BtnOds8,BtnOds9,BtnOds10,
+            BtnOds11,BtnOds12,BtnOds13,BtnOds14,BtnOds15,BtnOds16,BtnOds17,BtnVoltar1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(telaODS1);
             }
         });
+
         // BOTAO 0DS 2
         BtnOds2 = findViewById(R.id.BtnOds2);
         BtnOds2.setOnClickListener(new View.OnClickListener() {

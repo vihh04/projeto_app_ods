@@ -4,6 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3227195"
     tools:context=".ODS16Activity">
 
+    <Button
+        android:id="@+id/BtnVoltar16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ods16" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="157dp" />
 </android.support.constraint.ConstraintLayout>

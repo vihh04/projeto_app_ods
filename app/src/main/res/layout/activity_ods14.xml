@@ -4,6 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9F03A9F4"
     tools:context=".ODS14Activity">
 
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ods14"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="148dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="128dp"
+        android:text="ODS 14"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnVoltar14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

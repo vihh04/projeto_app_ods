@@ -5,30 +5,54 @@
     android:id="@+id/TelaOds1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E4D13535"
     tools:context=".ODS1Activity">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="100dp"
+        android:layout_width="116dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/ods1"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="66dp" />
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ods1" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="138dp"
-        android:layout_height="104dp"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="80dp"
         android:text="ODS 1"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="78dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/BtnVoltar"
+        android:id="@+id/BtnVoltar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Voltar"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="657dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="359dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="208dp"
+        android:text="Objetivo 1. Acabar com a pobreza em todas as suas formas, em todos os lugares"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
