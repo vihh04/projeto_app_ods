@@ -27,9 +27,10 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="157dp" />
+        android:layout_width="146dp"
+        android:layout_height="52dp"
+        android:text="ODS 16"
+        android:textSize="34dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="103dp" />
 </android.support.constraint.ConstraintLayout>
